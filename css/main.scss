@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+/*colors*/
+$Strong-Cyan: hsl(171, 66%, 44%);
+$Light-Blue: hsl(233, 100%, 69%);
+$Dark-Grayish-Blue: hsl(210, 10%, 33%);
+$Grayish-Blue: hsl(201, 11%, 66%);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree';
+    text-decoration: none;
+}
+
+body {
+    background-image: url('../images/bg-header-mobile.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 2em;
+
+    p {
+        color: $Grayish-Blue;
+    }
+
+}
+
+
+
+.hero {
+
+    h1 {
+        margin-bottom: .7em;
+        font-size: 2rem;
+    }
+
+    p {
+        margin-bottom: 1.5em;
+    }
+
+    .logo {
+        margin: 2em 0;
+        height: 100px;
+        width: auto;
+
+    }
+
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    
+    
+    .ios {
+        background-color: $Strong-Cyan;
+        padding: 1em;
+        border-radius: 30px;
+        color: white;
+        box-shadow: 0 10px 30px $Strong-Cyan;
+        margin-bottom: 1.5em;
+        font-size: 1.2rem;
+        font-weight: 600;
+
+        &:hover {
+            background-color: $Dark-Grayish-Blue;
+            box-shadow: 0 10px 30px $Dark-Grayish-Blue;
+
+        }
+    }
+    .mac {
+        background-color: $Light-Blue;
+        padding: 1em;
+        border-radius: 30px;
+        color: white;
+        box-shadow: 0 10px 30px $Light-Blue;
+        margin-bottom: 1.5em;
+        font-size: 1.2rem;
+        font-weight: 600;
+
+        &:hover {
+            background-color: $Dark-Grayish-Blue;
+            box-shadow: 0 10px 30px $Dark-Grayish-Blue;
+
+        }
+    }
+}
+
+.benefits {
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        margin: .7em 0;
+    }
+
+    p {
+        margin-bottom: 1.5em;
+    }
+
+    #snippets {
+        margin: 5em 0 .7em;
+    }
+
+    #access {
+        margin: 5em 0 .7em;
+    }
+
+    #supercharge {
+        margin: 5em 0 .7em;
+    }
+}
+
+#mac {
+    margin: 2em 0;
+    height: 230px;
+    width: auto;
+}
+
+#devices {
+    height:200px;
+    width: auto;
+    
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7em;
+    
+    img {
+        margin: 1.5em 0;
+        width: 50%;
+        height: auto;
+    }
+}
+
+.clipboard {
+    
+    h2{
+        margin: 5em 0 .7em;
+        font-size: 1.7rem;
+    }
+
+    p {
+        margin-bottom: 2em;
+    }
+}
+
+footer {
+    background-color: whitesmoke;
+
+    img {
+        margin-top: 2em;
+    }
+
+    a {
+        display: flex;
+        flex-direction: column;
+        margin: 1.5em 0;
+        color: $Dark-Grayish-Blue;
+        
+    }
+
+    .logo-footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
